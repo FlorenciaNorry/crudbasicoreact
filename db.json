@@ -38,6 +38,48 @@
       "precioProducto": 15,
       "categoria": "salado",
       "id": 7
+    },
+    {
+      "nombreProducto": "jugo de naranja",
+      "precioProducto": 120,
+      "categoria": "bebidaFria",
+      "id": 8
+    },
+    {
+      "nombreProducto": "jugo de naranja",
+      "precioProducto": 120,
+      "categoria": "bebidaFria",
+      "id": 9
+    },
+    {
+      "nombreProducto": "jugo ",
+      "precioProducto": 120,
+      "categoria": "bebidaFria",
+      "id": 10
+    },
+    {
+      "nombreProducto": "jugo",
+      "precioProducto": 120,
+      "categoria": "bebidaFria",
+      "id": 11
+    },
+    {
+      "nombreProducto": "jugo",
+      "precioProducto": 120,
+      "categoria": "bebidaFria",
+      "id": 12
+    },
+    {
+      "nombreProducto": "jugo",
+      "precioProducto": 120,
+      "categoria": "bebidaFria",
+      "id": 13
+    },
+    {
+      "nombreProducto": "jugo",
+      "precioProducto": 120,
+      "categoria": "bebidaFria",
+      "id": 14
     }
   ]
 }
