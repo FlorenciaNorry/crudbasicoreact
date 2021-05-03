@@ -7,6 +7,7 @@ const AgregarProducto = (props) => {
   const [precioProducto, setPrecioProducto] = useState(0);
   const [categoria, setCategoria] = useState("");
   const [error, setError] = useState(false);
+  const URL = process.env.REACT_APP_API_URL;  
 
   const cambiarCategoria = (e) => {
     setCategoria(e.target.value);
@@ -49,7 +50,7 @@ const AgregarProducto = (props) => {
           },
           body: JSON.stringify(producto)
         }
-        const respuesta = await fetch('http://localhost:3004/cafeteria',datosEnviar);
+        const respuesta = await fetch(URL,datosEnviar);
         console.log(respuesta);   
         if(respuesta.status === 201){
           Swal.fire(
