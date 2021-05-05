@@ -1,15 +1,15 @@
 {
   "cafeteria": [
     {
-      "nombreProducto": "jugo de naranja",
-      "precioProducto": 120,
-      "categoria": "bebidaFria",
+      "nombreProducto": "medialunas",
+      "precioProducto": "100",
+      "categoria": "dulce",
       "id": 8
     },
     {
-      "nombreProducto": "jugo de naranja",
-      "precioProducto": 120,
-      "categoria": "bebidaFria",
+      "nombreProducto": "tortillas",
+      "precioProducto": "200",
+      "categoria": "salado",
       "id": 9
     },
     {
@@ -25,10 +25,16 @@
       "id": 11
     },
     {
-      "nombreProducto": "jugo",
-      "precioProducto": 120,
-      "categoria": "bebidaFria",
+      "nombreProducto": "torta",
+      "precioProducto": "180",
+      "categoria": "dulce",
       "id": 12
+    },
+    {
+      "nombreProducto": "cafe con leche",
+      "precioProducto": "150",
+      "categoria": "bebidaFria",
+      "id": 13
     }
   ]
 }

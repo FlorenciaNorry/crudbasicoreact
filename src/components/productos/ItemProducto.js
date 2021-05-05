@@ -1,6 +1,9 @@
 import React from "react";
 import { Button, ListGroup } from "react-bootstrap";
 import Swal from 'sweetalert2';
+import {Link} from 'react-router-dom';
+import {FontAwesomeIcon} from '@fortawesome/react-fontawesome';
+import {faCoffee} from '@fortawesome/free-solid-svg-icons'
 
 const ItemProducto = (props) => {
 
@@ -53,7 +56,10 @@ const ItemProducto = (props) => {
         </span>
       </p>
       <div>
-        <Button variant="warning" className="mr-3">Editar</Button>
+        <Link className='btn btn-warning text-light mr-3' to={'/productos/editar/'+props.producto.id}>
+          
+        <FontAwesomeIcon icon={faCoffee}></FontAwesomeIcon>
+          Editar</Link>
         <Button variant="danger" onClick={()=>eliminarProducto(props.producto.id)}>Borrar</Button>
       </div>
     </ListGroup.Item>
