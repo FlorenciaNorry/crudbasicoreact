@@ -103,7 +103,7 @@ const EditarProducto = (props) => {
             />
           </Form.Group>
 
-          <Form.Group controlId="formBasicPassword">
+          <Form.Group>
             <Form.Label>Precio *</Form.Label>
             <Form.Control
               type="number"
@@ -164,7 +164,7 @@ const EditarProducto = (props) => {
           </Button>
           {
             // operador ternario
-            error ? (
+            error === true ? (
               <Alert variant="warning">Todos los campos son obligatorios</Alert>
             ) : null
           }

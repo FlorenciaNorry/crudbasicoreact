@@ -86,7 +86,7 @@ const AgregarProducto = (props) => {
             />
           </Form.Group>
 
-          <Form.Group controlId="formBasicPassword">
+          <Form.Group>
             <Form.Label>Precio *</Form.Label>
             <Form.Control
               type="number"
@@ -102,6 +102,7 @@ const AgregarProducto = (props) => {
               label="Bebida Caliente"
               value="bebidaCaliente"
               onChange={cambiarCategoria}
+              inline
             />
             <Form.Check
               name="categoria"
@@ -109,6 +110,7 @@ const AgregarProducto = (props) => {
               label="Bebida fria"
               value="bebidaFria"
               onChange={cambiarCategoria}
+              inline
             />
             <Form.Check
               name="categoria"
@@ -116,6 +118,7 @@ const AgregarProducto = (props) => {
               label="Sandwich"
               value="Sandwich"
               onChange={cambiarCategoria}
+              inline
             />
             <Form.Check
               name="categoria"
@@ -123,6 +126,7 @@ const AgregarProducto = (props) => {
               label="Dulce"
               value="dulce"
               onChange={cambiarCategoria}
+              inline
             />
             <Form.Check
               name="categoria"
@@ -130,6 +134,7 @@ const AgregarProducto = (props) => {
               label="Salado"
               value="salado"
               onChange={cambiarCategoria}
+              inline
             />
           </Form.Group>
           <Button variant="danger" type="submit" size="lg" type="submit" block>
@@ -137,7 +142,7 @@ const AgregarProducto = (props) => {
           </Button>
           {
             // operador ternario
-            error ? (
+            (error === true)? (
               <Alert variant="warning">Todos los campos son obligatorios</Alert>
             ) : null
           }
